@@ -1,0 +1,205 @@
+\documentclass[UTF8,zihao=-4]{oucart}
+\usepackage{indentfirst}
+\usepackage{graphicx}
+\usepackage{subfig}
+\usepackage{tabularray}
+\usepackage{rotating}
+\usepackage{hyperref}
+\hypersetup{colorlinks=true,allcolors=black,pdfstartview=Fit,breaklinks=true}
+
+\title{基于唱跳、Rap、篮球的学习方法}
+\entitle{Learning methods based on singing and dancing, Rap and basketball}
+\author{ikun-真爱粉}
+\studentid{19020032.5}
+\advisor{全民 ~~~制作人}
+\college{信息科学与工程学部}
+\department{计算机科学与技术}
+\grade{2019}
+\dateyear{2023}
+\datemonth{5}
+\dateday{18}
+
+\cnabstractkeywords{
+    唱跳、Rap和篮球是cxk的三个爱好特长。
+
+唱跳是指唱歌和跳舞，是cxk的擅长之一。他在《偶像练习生》节目中以其出色的唱功和舞蹈实力获得了很高的人气。
+
+Rap是一种说唱艺术形式，也是cxk的擅长之一。在《偶像练习生》节目中，他展示了自己优秀的说唱技巧，得到了导师们的赞赏。
+
+篮球是一项体育运动，也是cxk的爱好之一。他曾经是校队的篮球运动员，有着不错的篮球基础。
+
+通过努力研习唱跳、Rap和篮球等技能，cxk展现出自己多才多艺的一面，同时也体现了他对音乐、舞蹈、运动的热爱和追求。
+
+}{
+    Transformer模型, 唱跳, Rap, 篮球
+}
+\enabstractkeywords{
+    Singing and dancing, Rap and basketball are the three hobby specialties of CHOI Xu-kun.
+
+Singing and dancing refers to singing and dancing, which is one of Cai XuKun's specialties. He gained high popularity with his excellent singing and dancing strength in the show "Idol Trainee".
+
+Rap is a rap art form, which is also one of Cai XuKun's specialties. In the Idol Trainee program, he showed his excellent rapping skills and was appreciated by the mentors.
+
+Basketball is a sport and one of Cai XuKun's hobbies. He used to be a basketball player of the varsity team and has a good basketball foundation.
+
+By working hard on his skills of singing and dancing, Rap and basketball, Cai XuKun shows his versatility and also reflects his love and pursuit of music, dance and sports.
+
+Translated with www.DeepL.com/Translator (free version)
+}{
+    Transformer, Singing and dancing, Rap, Basketball
+}
+
+\renewcommand{\baselinestretch}{1.6}
+
+\begin{document}
+
+\makecover % 封面
+
+\makesignature % 扉页
+
+\makeabstract % 摘要
+
+% 目录
+\thispagestyle{tableofcontents}
+\tableofcontents
+\newpage
+
+\pagenumbering{arabic}
+\setcounter{page}{1}
+
+% 正文内容
+% 建议使用 \input{<文件名>} 指令引用其他文件
+
+\input{includes/section_01}
+\newpage
+\input{includes/section_02}
+\newpage
+
+\phantomsection
+% 参考文献
+\addcontentsline{toc}{nonumbersection}{参考文献}
+\begin{thebibliography}{99}
+
+    \bibitem{ref1}
+    S. Ji, D. Wang and M. Luo, "Generative Adversarial Network-Based Full-Space Domain Adaptation for Land Cover Classification From Multiple-Source Remote Sensing Images," in IEEE Transactions on Geoscience and Remote Sensing, vol. 59, no. 5, pp. 3816-3828, May 2021, doi: 10.1109/TGRS.2020.3020804.
+
+    \bibitem{ref2}
+    J. Wang, F. Gao, J. Dong and Q. Du, "Adaptive DropBlock-Enhanced Generative Adversarial Networks for Hyperspectral Image Classification," in IEEE Transactions on Geoscience and Remote Sensing, vol. 59, no. 6, pp. 5040-5053, June 2021, doi: 10.1109/TGRS.2020.3015843.
+
+    \bibitem{ref3}
+    K. Xu, H. Huang, P. Deng and Y. Li, "Deep Feature Aggregation Framework Driven by Graph Convolutional Network for Scene Classification in Remote Sensing," in IEEE Transactions on Neural Networks and Learning Systems, vol. 33, no. 10, pp. 5751-5765, Oct. 2022, doi: 10.1109/TNNLS.2021.3071369.
+
+    \bibitem{ref4}
+    W. Ma et al., "A Multi-Scale Progressive Collaborative Attention Network for Remote Sensing Fusion Classification," in IEEE Transactions on Neural Networks and Learning Systems, doi: 10.1109/TNNLS.2021.3121490.
+
+    \bibitem{ref5}
+    J. M. Bioucas-Dias, A. Plaza, G. Camps-Valls, P. Scheunders, N. Nasrabadi and J. Chanussot, "Hyperspectral Remote Sensing Data Analysis and Future Challenges," in IEEE Geoscience and Remote Sensing Magazine, vol. 1, no. 2, pp. 6-36, June 2013, doi: 10.1109/MGRS.2013.2244672.
+
+    \bibitem{ref6}
+    G. Camps-Valls, D. Tuia, L. Bruzzone and J. A. Benediktsson, "Advances in Hyperspectral Image Classification: Earth Monitoring with Statistical Learning Methods," in IEEE Signal Processing Magazine, vol. 31, no. 1, pp. 45-54, Jan. 2014, doi: 10.1109/MSP.2013.2279179.
+
+    \bibitem{ref7}
+    Y. Duan, H. Huang, Z. Li and Y. Tang, "Local Manifold-Based Sparse Discriminant Learning for Feature Extraction of Hyperspectral Image," in IEEE Transactions on Cybernetics, vol. 51, no. 8, pp. 4021-4034, Aug. 2021, doi: 10.1109/TCYB.2020.2977461.
+
+    \bibitem{ref8}
+    Y. Duan, H. Huang and Y. Tang, "Local Constraint-Based Sparse Manifold Hypergraph Learning for Dimensionality Reduction of Hyperspectral Image," in IEEE Transactions on Geoscience and Remote Sensing, vol. 59, no. 1, pp. 613-628, Jan. 2021, doi: 10.1109/TGRS.2020.2995709.
+
+    \bibitem{ref9}
+    A. Moreira, P. Prats-Iraola, M. Younis, G. Krieger, I. Hajnsek and K. P. Papathanassiou, "A tutorial on synthetic aperture radar," in IEEE Geoscience and Remote Sensing Magazine, vol. 1, no. 1, pp. 6-43, March 2013, doi: 10.1109/MGRS.2013.2248301.
+
+    \bibitem{ref10}
+    N. Yokoya, T. Yairi and A. Iwasaki, "Coupled Nonnegative Matrix Factorization Unmixing for Hyperspectral and Multispectral Data Fusion," in IEEE Transactions on Geoscience and Remote Sensing, vol. 50, no. 2, pp. 528-537, Feb. 2012, doi: 10.1109/TGRS.2011.2161320.
+
+    \bibitem{ref11}
+    Y. Byun, “A texture-based fusion scheme to integrate high-resolution satellite SAR and optical images,” Remote Sens. Lett., vol. 5, no. 2, pp. 103–111, Feb. 2014.
+
+    \bibitem{ref12}
+    S. Li, R. Dian, L. Fang and J. M. Bioucas-Dias, "Fusing Hyperspectral and Multispectral Images via Coupled Sparse Tensor Factorization," in IEEE Transactions on Image Processing, vol. 27, no. 8, pp. 4118-4130, Aug. 2018, doi: 10.1109/TIP.2018.2836307.
+
+    \bibitem{ref13}
+    Q. Cao, Y. Zhong, A. Ma and L. Zhang, "Urban Land Use/Land Cover Classification Based on Feature Fusion Fusing Hyperspectral Image and Lidar Data," IGARSS 2018 - 2018 IEEE International Geoscience and Remote Sensing Symposium, Valencia, Spain, 2018, pp. 8869-8872, doi: 10.1109/IGARSS.2018.8517361.
+
+    \bibitem{ref14}
+    P. Ghamisi, B. Höfle and X. X. Zhu, "Hyperspectral and LiDAR Data Fusion Using Extinction Profiles and Deep Convolutional Neural Network," in IEEE Journal of Selected Topics in Applied Earth Observations and Remote Sensing, vol. 10, no. 6, pp. 3011-3024, June 2017, doi: 10.1109/JSTARS.2016.2634863.
+
+    \bibitem{ref15}
+    Y. Chen, C. Li, P. Ghamisi, X. Jia and Y. Gu, "Deep Fusion of Remote Sensing Data for Accurate Classification," in IEEE Geoscience and Remote Sensing Letters, vol. 14, no. 8, pp. 1253-1257, Aug. 2017, doi: 10.1109/LGRS.2017.2704625.
+
+    \bibitem{ref16}
+    Feng, Q.; Zhu, D.; Yang, J.; Li, B. Multisource Hyperspectral and LiDAR Data Fusion for Urban Land-Use Mapping based on a Modified Two-Branch Convolutional Neural Network. ISPRS Int. J. Geo-Inf. 2019, 8, 28. https://doi.org/10.3390/ijgi8010028
+
+    \bibitem{ref17}
+    X. Liu, L. Jiao, L. Li, X. Tang, and Y. Guo, “Deep multi-level fusion network for multi-source image pixel-wise classification,” Knowl.-Based Syst., vol. 221, Jun. 2021, Art. no. 106921.
+
+    \bibitem{ref18}
+    Y. Gu and Q. Wang, "Discriminative Graph-Based Fusion of HSI and LiDAR Data for Urban Area Classification," in IEEE Geoscience and Remote Sensing Letters, vol. 14, no. 6, pp. 906-910, June 2017, doi: 10.1109/LGRS.2017.2687519.
+
+    \bibitem{ref19}
+    W. Liao, A. Pižurica, R. Bellens, S. Gautama and W. Philips, "Generalized Graph-Based Fusion of Hyperspectral and LiDAR Data Using Morphological Features," in IEEE Geoscience and Remote Sensing Letters, vol. 12, no. 3, pp. 552-556, March 2015, doi: 10.1109/LGRS.2014.2350263.
+
+    \bibitem{ref20}
+    Z. Feng, J. Lai and X. Xie, "Learning Modality-Specific Representations for Visible-Infrared Person Re-Identification," in IEEE Transactions on Image Processing, vol. 29, pp. 579-590, 2020, doi: 10.1109/TIP.2019.2928126.
+
+    \bibitem{ref21}
+    Hao, Y., Wang, N., Li, J., Gao, X.: Hsme: hypersphere manifold embedding for visible thermal person re-identification. In: Proceedings of the AAAI Conference on Artificial Intelligence. vol. 33, pp. 8385–8392 (2019)
+
+    \bibitem{ref22}
+    Ye, M., Lan, X., Leng, Q., Shen, J.: Cross-modality person re-identification via modality-aware collaborative ensemble learning. IEEE Transactions on Image Processing 29, 9387–9399 (2020)
+
+    \bibitem{ref23}
+    Ye, M., Lan, X., Li, J., Yuen, P.: Hierarchical discriminative learning for visible thermal person re-identification. In: Proceedings of the AAAI Conference on Artificial Intelligence. vol. 32 (2018)
+
+    \bibitem{ref24}
+    Ye, M., Wang, Z., Lan, X., Yuen, P.C.: Visible thermal person re-identification via dual-constrained top-ranking. In: International Joint Conference on Artificial Intelligence. vol. 1, p. 2 (2018)
+
+    \bibitem{ref25}
+    Wang, Z., Wang, Z., Zheng, Y., Chuang, Y.Y., Satoh, S.: Learning to reduce dual-level discrepancy for infrared-visible person re-identification. In: Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition. pp. 618–626 (2019)
+
+    \bibitem{ref26}
+    Lu, Y., Wu, Y., Liu, B., Zhang, T., Li, B., Chu, Q., Yu, N.: Cross-modality person re-identification with shared-specific feature transfer. In: Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition. pp. 13379–13389 (2020)
+
+    \bibitem{ref27}
+    F. Kurz, D. Rosenbaum, J. Leitloff, O. Meynberg, and P. Reinartz, “Real time camera system for disaster and trafﬁc monitoring,” in Proc. Int. Conf. Sensors Models Photogramm. Remote Sens., 2011, pp. 1–6.
+
+    \bibitem{ref28}
+    A. Baumgartner, P. Gege, C. Köhler, K. Lenhard, and T. Schwarz-maier, “Characterisation methods for the hyperspectral sensor HySpexat DLR’s calibration home base,” Proc. SPIE, vol. 8533, Nov. 2012, Art. no. 85331H.
+
+    \bibitem{ref29}
+    D. Hong, J. Hu, J. Yao, J. Chanussot, and X. X. Zhu, “Multimodal remote sensing benchmark datasets for land cover classiﬁcation with a shared and speciﬁc feature learning model,” ISPRS J. Photogramm. Remote Sens., vol. 178, pp. 68–80, Aug. 2021.
+
+    \bibitem{ref30}
+    F. Melgani and L. Bruzzone, “Classification of hyperspectral remote sensing images with support vector machines,” IEEE Trans. Geosci. Remote Sens., vol. 42, no. 8, pp. 1778–1790, Aug. 2004.
+
+    \bibitem{ref31}
+    W. Li, C. Chen, H. Su, and Q. Du, “Local binary patterns and extreme learning machine for hyperspectral imagery classification,” IEEE Trans. Geosci. Remote Sens., vol. 53, no. 7, pp. 3681–3693, Jul. 2015.
+
+    \bibitem{ref32}
+    X. Xu, W. Li, Q. Ran, Q. Du, L. Gao, and B. Zhang, “Multisource remote sensing data classification based on convolutional neural network,” IEEE Trans. Geosci. Remote Sens., vol. 56, no. 2, pp. 937–949, Feb. 2018.
+
+    \bibitem{ref33}
+    H. Lee and H. Kwon, “Going deeper with contextual CNN for hyperspectral image classification,” IEEE Trans. Image Process., vol. 26, no. 10, pp. 4843–4855, Oct. 2017.
+
+    \bibitem{ref34}
+    Y. Gao et al., “Hyperspectral and multispectral classification for coastal wetland using depthwise feature interaction network,” IEEE Trans. Geosci. Remote Sens., vol. 60, pp. 1–15, 2022.
+
+\end{thebibliography}
+\newpage
+
+\phantomsection
+% 致谢
+\addcontentsline{toc}{nonumbersection}{致谢}
+\begin{center}
+    \zihao{3} \textbf{致谢} \\
+\end{center}
+
+非常感谢大家一直以来的支持和关注，我很荣幸能够在这里向大家表达我的感激之情。
+
+在我的音乐道路上，有很多人给予了我很多帮助和支持，其中最让我感动的是我的粉丝们。你们一直陪伴着我，支持着我，给了我很多力量和勇气。没有你们的支持，我不可能走到今天这个地步。
+
+还有我的音乐制作人，你们的指导和帮助让我能够更好地表达自己的音乐理念和想法。我非常感激你们的耐心和细心，没有你们的帮助，我无法成为现在这个优秀的音乐人。
+
+最后，我还要感谢我的家人和朋友们，你们一直在我身边支持着我，给了我很多鼓励和帮助。没有你们的支持，我无法成为一个更好的人。
+
+未来，我会继续努力，用我的音乐和舞台来感谢大家的支持和关注。希望我们能够一起走向更加美好的未来。谢谢大家！
+
+\end{document}
